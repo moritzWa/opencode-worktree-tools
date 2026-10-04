@@ -1,0 +1,44 @@
+{
+  "name": "opencode-worktree-tools",
+  "version": "0.1.0",
+  "description": "OpenCode plugin: git worktree tools for the agent, in the same place Claude Code puts worktrees. No terminals, no prompt injection.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "git",
+    "worktree",
+    "claude-code"
+  ],
+  "oc-plugin": [
+    "server"
+  ],
+  "main": "./index.js",
+  "exports": {
+    "./server": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@opencode-ai/plugin": ">=1.18.27"
+  },
+  "author": {
+    "name": "Moritz Wallawitsch",
+    "url": "https://github.com/moritzWa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moritzWa/opencode-worktree-tools.git"
+  },
+  "homepage": "https://github.com/moritzWa/opencode-worktree-tools#readme",
+  "bugs": {
+    "url": "https://github.com/moritzWa/opencode-worktree-tools/issues"
+  },
+  "engines": {
+    "opencode": ">=1.18.27"
+  }
+}
